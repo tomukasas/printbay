@@ -2,9 +2,10 @@
   "name": "printbay",
   "version": "0.1.0",
   "private": true,
+  "main": "client/index.js",
   "scripts": {
     "serve:client": "vue-cli-service serve",
-    "serve:server": "nodemon server -L",
+    "serve:server": "nodemon server",
     "serve": "concurrently \"npm:serve:*\" -k",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint client server",
@@ -28,7 +29,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "~10.0.1",
     "babel-jest": "~24.3.1",
-    "concurrently": "^4.1.0",
+    "concurrently": "^7.0.0",
     "eslint": "~5.15.1",
     "eslint-config-standard": "~12.0.0",
     "eslint-plugin-html": "~5.0.3",
@@ -37,7 +38,7 @@
     "eslint-plugin-promise": "~4.0.1",
     "eslint-plugin-standard": "~4.0.0",
     "eslint-plugin-vue": "~5.2.2",
-    "nodemon": "^1.18.10",
+    "nodemon": "^2.0.15",
     "vue-template-compiler": "~2.6.8"
   }
 }

@@ -1,5 +1,4 @@
 #!/bin/bash
-
 set -euo pipefail
 
 DOCKER_IMAGE=printbay-dev
